@@ -5,57 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="./style/about.css">
 </head>
-    <body style="color: rgb(6, 82, 95);">
+    <body>
         
 
     <header>
+        <img src="/assets/logo.png" alt="Logo" class="LOGO">
+        <h1>Welcome to ToDo Website</h1>
 
-        <nav style="text-align:center ;"><h1>Welcome to ToDo Website</h1> </nav>
-        <p style="text-align border-top:;"> <img src="/assets/img.jpg" alt="Logo" width="300" height="300"> </p>
-        <nav>
-              <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              </ul>
-              
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+         </div>
+             
+
     </header>    
 
     <main>
+        <div class="maindiv">
+    <div class="info"> <p>
+        About page! <br> 
+        This page was developed by Osama Alzaghal. <br>
+        I am a computer science graduate from Yamouk university and now i am styding .NET at ASAC.   
+          </p> 
     
-    <p style="text-align: center;">
-    About page! <br> 
-    This page was developed by Osama Alzaghal. <br>
-    I am a computer science graduate from Yamouk university and now i am styding .NET at ASAC. 
+    <img class="osama" src="/assets/osama.jpg" alt="Osama's photo">
+    <p>Phone number: +962792120566 <br> Email: osama.alzaghal@gmail.com </p>
+    </div>
+  
     
-</p> 
-
-<img src="/assets/osama.jpg" alt="Osama's photo" width="250" height="300">
-
-<p>Phone number: +962792120566 <br> Email: osama.alzaghal@gmail.com </p>
-<p>Enter your contact information:</p>
+<div class="user">
+    <h2>Contact Me</h2>
+    <form action="">
+        
+        <label for="">First name:</label>
+        <input type="text">
+        <label for="">Last name:</label>
+        <input type="text" >
+        <label for="">Email:</label> 
+        <input type="email">
+        <label for="">Phone Number:</label> 
+        <input type="number">
+        <label for="">Message:</label> 
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+        <div class="btn"><input type="submit">
+        <input type="reset"></div>
+        
     
-<form action="">
-    <label for="">First name:</label>
-    <input type="text">
-    <label for="">Last name:</label>
-    <input type="text" >
-    <label for="">Message:</label> 
-    <input type="text">
-    <label for="">Email:</label> 
-    <input type="email">
-    <label for="">Phone Number:</label> 
-    <input type="number">
-    <input type="submit">
-    <input type="reset">
-
-  </form>
+      </form></div>    
+        </div>
     </main>
 
 
     <footer>
-        <p style="text-align: center;">This is the end of the page.</p>
-        <p style="text-align: center;">&copy; Copyright 2022 ToDo.</p>
+          <p>&copy; Copyright 2022 ToDo.</p>
     </footer>
 
 
