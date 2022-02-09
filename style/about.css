@@ -1,0 +1,91 @@
+.LOGO{
+    width:300px;
+    height:300px; 
+}
+.osama{
+    width: 250px;;
+    height: 250px;
+    border-radius: 50%;
+      }
+
+header{
+
+    display: flex;
+    align-items: center;
+    height:80px;
+    justify-content: space-between;
+    background-color: rgb(197, 196, 196);
+
+       }
+
+header div a {    
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 50px;    
+    font-weight: 300;
+    background-color: rgb(228, 222, 225);    
+      }         
+
+.maindiv{
+    display: flex;
+    align-items: center;
+    }   
+
+.info{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center; 
+    
+}   
+
+.user form{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    display: flex;
+} 
+
+.btn{
+    padding-top: 5px;
+}
+     
+ul{
+    list-style-type: none;
+    
+}
+
+  a {
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    margin: auto;
+    line-height: 1.5;
+    position: relative;
+    height: 100vh;
+}
+
+footer{
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: rgb(197, 196, 196); 
+}
