@@ -26,10 +26,19 @@ header div a {
     background-color: rgb(228, 222, 225);    
       }         
 
+header h1{
+    color: rgb(5, 29, 110);
+}      
+
 .maindiv{
     display: flex;
     align-items: center;
     }   
+
+.maindiv .info p{
+font-weight: bold;
+color: rgb(0, 0, 0);
+}
 
 .info{
     margin: auto;
@@ -56,6 +65,14 @@ header div a {
     padding: 0px;
     display: flex;
 } 
+.user p{
+
+color: rgb(255, 0, 0);
+font-size: x-large;
+font-weight: bold;
+
+
+}
 
 .btn{
     padding-top: 5px;
