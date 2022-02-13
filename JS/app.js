@@ -20,3 +20,38 @@ if (skip==false){
         alert("Welcome To The Page " + Name);  
     }
 }
+
+var asnwers=[];
+
+function isvalid(answer){
+    if(!(answer =="yes" || answer=="no")){
+        answer="Invalid";
+    }
+    return answer;
+}
+
+function PrintAnswers(){
+    for(var i=0; i<asnwers.length; i++){
+        console.log(asnwers[i]);
+    }
+}
+
+function Q1(){
+    var happy=prompt("Are You Happy?(Yes/No)").toLowerCase();
+    asnwers.push(happy=isvalid(happy));
+}
+
+function Q2(){
+    var isuseful=prompt("Did You Find This Website Useful?(Yes/No)").toLowerCase();
+    asnwers.push(isuseful=isvalid(isuseful));
+}
+
+function Q3(){
+    var isworking=prompt("Did Everything Work Properly?(Yes/No)").toLowerCase();
+    asnwers.push(isworking=isvalid(isworking));
+}
+
+Q1();
+Q2();
+Q3();
+PrintAnswers();
