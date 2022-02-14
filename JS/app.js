@@ -23,35 +23,35 @@ if (skip==false){
 
 var asnwers=[];
 
-function isvalid(answer){
+function isValid(answer){
     if(!(answer =="yes" || answer=="no")){
         answer="Invalid";
     }
     return answer;
 }
 
-function PrintAnswers(){
+function printAnswers(){
     for(var i=0; i<asnwers.length; i++){
         console.log(asnwers[i]);
     }
 }
 
-function Q1(){
+function isHappy(){
     var happy=prompt("Are You Happy?(Yes/No)").toLowerCase();
-    asnwers.push(happy=isvalid(happy));
+    asnwers.push(happy=isValid(happy));
 }
 
-function Q2(){
-    var isuseful=prompt("Did You Find This Website Useful?(Yes/No)").toLowerCase();
-    asnwers.push(isuseful=isvalid(isuseful));
+function isUseful(){
+    var useful=prompt("Did You Find This Website Useful?(Yes/No)").toLowerCase();
+    asnwers.push(useful=isValid(useful));
 }
 
-function Q3(){
-    var isworking=prompt("Did Everything Work Properly?(Yes/No)").toLowerCase();
-    asnwers.push(isworking=isvalid(isworking));
+function isWorking(){
+    var working=prompt("Did Everything Work Properly?(Yes/No)").toLowerCase();
+    asnwers.push(working=isValid(working));
 }
 
-Q1();
-Q2();
-Q3();
-PrintAnswers();
+isHappy();
+isUseful();
+isWorking();
+printAnswers();
